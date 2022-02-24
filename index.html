@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Include Modernizr in the head, before any other Javascript -->
+  <script src="includes/js/modernizr-2.6.2.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <!-- Fontawesome Star -->
+  <link rel="stylesheet" href="css/fontawesome-stars.css">
+  <!-- Ion Icon -->
+  <link rel="stylesheet" href="css/ion-fonts.css">
+  <!-- Slick CSS -->
+  <link rel="stylesheet" href="css/slick.css">
+  <!-- Animation -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- jQuery Ui -->
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <!-- Lightgallery -->
+  <link rel="stylesheet" href="css/lightgallery.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Style -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Plugins CSS -->
+
+  <link rel="stylesheet" href="css/nice-select.css">
+  <title>Registration</title>
+</head>
+
+<body>
+  <div class="loading">
+    <div class="text-center middle">
+      <div class="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+
+    </div>
+  </div>
+  <div id="banner" class="banner full-screen-mode parallax">
+    <div class="container pr">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="banner-static">
+          <div class="banner-text">
+            <div class="banner-cell">
+
+              <h1>2DRIVE: <span class="typer" id="some-id" data-delay="200" data-delim=":"
+                  data-words="ON THE WAY TO GO:THE FASTEST WAY TO GO" data-colors="#f55722"></span><span class="cursor"
+                  data-cursorDisplay="_" data-owner="some-id"></span></h1>
+
+              <p>SLASH ~ DRIVER : Drive & Earn With Your Vehicle</p>
+              <div class="book-btn">
+                <a href="#FAQ" class="table-btn hvr-underline-from-center">FREQUENTLY ASKED QUESTIONS
+                </a>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
+                  <form action="#">
+                    <div class="login-form">
+                      <div class="login-title" style="text-align: center;">SIGNUP AS A DRIVER</div>
+                      <div class="row">
+
+                        <div class="col-md-6 col-12 mb--20 firstname">
+
+
+                          <label style="color: #AEAEAE;">FIRST NAME**</label>
+                          <input type="text" placeholder="Driver First Name">
+                        </div>
+                        <div class="col-md-6 col-12 mb--20 secondname">
+                          <label style="color: #AEAEAE;">LAST NAME**</label>
+                          <input type="text" placeholder="Driver Last Name">
+                        </div>
+                        <div class="col-md-12 email">
+                          <label style="color: #AEAEAE;">EMAIL ADDRESS**</label>
+                          <input type="email" placeholder="Driver Email Address">
+                        </div>
+                        <div class="col-md-6 col-12 mb--20 password">
+                          <label style="color:#AEAEAE;">PASSWORD**</label>
+                          <input type="password" placeholder="Driver Password">
+                        </div>
+                        <div class="col-md-6 col-12 mb--20 password">
+                          <label style="color:#AEAEAE;">CONFIRM PASSWORD**</label>
+                          <input type="password" placeholder="Confirm Password">
+                        </div>
+
+                        <div class="col-12">
+                          <button class="register_btn" onclick="registerdriver()">Register</button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+
+
+              </div>
+
+              <a href="#feature">
+                <div class="mouse"></div>
+              </a>
+            </div>
+
+            <!-- end banner-cell -->
+          </div>
+          <!-- end banner-text -->
+        </div>
+        <!-- end banner-static -->
+      </div>
+      <!-- end col -->
+    </div>
+    <!-- end container -->
+  </div>
+  <!-- end banner -->
+
+
+  </div>
+
+  <!-- Begin MinaTune features Area -->
+  <div class="features_area" id="feature">
+    <div class="container-fluid">
+      <div class="features-nav">
+        <div class="row no-gutters">
+          <div class="features-grid">
+            <div class="features-item">
+              <div class="features-icon">
+                <i class="icon-paper-plane"></i>
+              </div>
+              <div class="features-content">
+                <h4>Fast Delivery</h4>
+                <h6>Anytime ~ Anywhere</h6>
+              </div>
+            </div>
+          </div>
+          <div class="features-grid">
+            <div class="features-item">
+              <div class="features-icon">
+                <i class="icon-help_outline"></i>
+              </div>
+              <div class="features-content">
+                <h4>Support 24/7</h4>
+                <p>Contact us 24 hours a day</p>
+              </div>
+            </div>
+          </div>
+          <div class="features-grid">
+            <div class="features-item">
+              <div class="features-icon">
+                <i class="icon-refresh"></i>
+              </div>
+              <div class="features-content">
+                <h4>100% Money Back</h4>
+                <h6>You have 30 days to Return</h6>
+              </div>
+            </div>
+          </div>
+          <div class="features-grid">
+            <div class="features-item">
+              <div class="features-icon">
+                <i class="icon-help"></i>
+              </div>
+              <div class="features-content">
+                <h4>90 Days Return</h4>
+                <h6>If goods have problems</h6>
+              </div>
+            </div>
+          </div>
+          <div class="features-grid">
+            <div class="features-item">
+              <div class="features-icon">
+                <i class="icon-lock"></i>
+              </div>
+              <div class="features-content last-child">
+                <h4>Payment Secure</h4>
+                <p>We ensure secure payment</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  features Area End Here -->
+
+  <!-- </div>Begin Frequently Area -->
+  <div class="frequently-area" id="FAQ">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="frequently-content">
+            <div class="frequently-desc">
+              <h1 class="text-center">FREQUENTLY ASKED QUESTIONS</h3>
+            </div>
+          </div>
+          <!-- Begin Frequently Accordin -->
+          <div class="frequently-accordion">
+            <div id="accordion">
+              <div class="card actives">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <a href="javascript:void(0)" class="" data-toggle="collapse" data-target="#collapseOne"
+                      aria-expanded="true" aria-controls="collapseOne">
+                      Mauris congue euismod purus at semper. Morbi et vulputate massa?
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                    accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <a href="javascript:void(0)" class="collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                      aria-expanded="false" aria-controls="collapseTwo">
+                      Donec mattis finibus elit ut tristique?
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                    accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <a href="javascript:void(0)" class="collapsed" data-toggle="collapse" data-target="#collapseThree"
+                      aria-expanded="false" aria-controls="collapseThree">
+                      Vestibulum a lorem placerat, porttitor urna vel?
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                    accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h5 class="mb-0">
+                    <a href="javascript:void(0)" class="collapsed" data-toggle="collapse" data-target="#collapseFour"
+                      aria-expanded="false" aria-controls="collapseFour">
+                      Aenean elit orci, efficitur quis nisl at, accumsan?
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                    accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h5 class="mb-0">
+                    <a href="javascript:void(0)" class="collapsed" data-toggle="collapse" data-target="#collapseFive"
+                      aria-expanded="false" aria-controls="collapseFive">
+                      Pellentesque habitant morbi tristique senectus et netus?
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                    accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingSix">
+                  <h5 class="mb-0">
+                    <a href="javascript:void(0)" class="collapsed" data-toggle="collapse" data-target="#collapseSix"
+                      aria-expanded="false" aria-controls="collapseSix">
+                      Nam pellentesque aliquam metus?
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                    accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingSeven">
+                  <h5 class="mb-0">
+                    <a href="javascript:void(0)" class="collapsed" data-toggle="collapse" data-target="#collapseSeven"
+                      aria-expanded="false" aria-controls="collapseSeven">
+                      Aenean elit orci, efficitur quis nisl at?
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                    accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingEight">
+                  <h5 class="mb-0">
+                    <a href="javascript:void(0)" class="collapsed" data-toggle="collapse" data-target="#collapseEight"
+                      aria-expanded="false" aria-controls="collapseEight">
+                      Morbi gravida, nisi id fringilla ultricies, elit lorem?
+                    </a>
+                  </h5>
+                </div>
+                <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                    accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="checkout-area" id="registerDriver">
+    <div class="container-fluid">
+      <div class="login-register_area">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-xs-12 col-lg-6">
+              <!-- Login Form s-->
+              <form action="#">
+                <div class="login-form">
+                  <h4 class="login-title">Login</h4>
+                  <div class="row">
+                    <div class="col-md-12 col-12">
+                      <label>Email Address*</label>
+                      <input type="email" placeholder="Email Address">
+                    </div>
+                    <div class="col-12 mb--20">
+                      <label>Password</label>
+                      <input type="password" placeholder="Password">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="check-box">
+                        <input type="checkbox" id="remember_me">
+                        <label for="remember_me">Remember me</label>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="forgotton-password_info">
+                        <a href="#"> Forgotten pasward?</a>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <button class="login_btn">Login</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
+              <form action="#">
+                <div class="login-form">
+                  <h4 class="login-title">2DRIVE:REGISTERATION</h4>
+                  <div class="row">
+                      <div class="col-md-6">
+                          <label>Vehicle Type</label>
+                          <input type="email" placeholder="Email Address">
+                        </div>
+                        <div class="col-md-6">
+                          <label>License Plate*</label>
+                          <input type="password" placeholder="Password" required>
+                        </div>
+                    <div class="col-md-6">
+
+                      <h3>DRIVER LICENSE EXPIRY DATE<span class="required">*</span></h3>
+                      <div class="country-select clearfix col-md-6">
+                        <label>Year<span class="required">*</span></label>
+                        <select class="myniceselect nice-select wide">
+                          <optiond>2022</option>
+                            <option>2023</option>
+                            <option>2023</option>
+                            <option>2024</option>
+                            <option>2025</option>
+                            <option>2026</option>
+                            <option>2027</option>
+                            <option>2028</option>
+                            <option>2029</option>
+                            <option>2030</option>
+                        </select>
+                        <label>Month<span class="required">*</span></label>
+                        <select class="myniceselect nice-select wide">
+                          <optiond>January/01</option>
+                            <option>February/02</option>
+                            <option>March/03</option>
+                            <option>April/04</option>
+                            <option>May/05</option>
+                            <option>June/06</option>
+                            <option>July/07</option>
+                            <option>August/08</option>
+                            <option>September/09</option>
+                            <option>October/10</option>
+                            <option>November/11</option>
+                            <option>December/12</option>
+                        </select>
+                        <label>Day<span class="required">*</span></label>
+                        <select class="myniceselect nice-select wide">
+                          <option>Sunday/01</option>
+                          <option>Monday/02</option>
+                          <option>Tuesday/03</option>
+                          <option>Wednesay/04</option>
+                          <option>Thursday/05</option>
+                          <option>Friday/06</option>
+                          <option>Saturday/07</option>
+                        </select>
+                      </div>
+                         
+                    <div class="col-md-6">
+                      <input type="file" name="avatar" class="upload_btn" accept="image/" placeholder="UPLOAD PICTURE"   id="" required>
+                      </div>
+                    </div>
+                    
+                   
+
+                    <div class="col-md-6">
+                        <h3>ROAD WORTHINESS EXPIRY DATE<span class="required">*</span></h3>
+  
+                        <div class="country-select clearfix col-md-6">
+                          <label>Year<span class="required">*</span></label>
+                          <select class="myniceselect nice-select wide">
+                            <optiond>2022</option>
+                              <option>2023</option>
+                              <option>2023</option>
+                              <option>2024</option>
+                              <option>2025</option>
+                              <option>2026</option>
+                              <option>2027</option>
+                              <option>2028</option>
+                              <option>2029</option>
+                              <option>2030</option>
+                          </select>
+                          <label>Month<span class="required">*</span></label>
+                          <select class="myniceselect nice-select wide">
+                            <optiond>January/01</option>
+                              <option>February/02</option>
+                              <option>March/03</option>
+                              <option>April/04</option>
+                              <option>May/05</option>
+                              <option>June/06</option>
+                              <option>July/07</option>
+                              <option>August/08</option>
+                              <option>September/09</option>
+                              <option>October/10</option>
+                              <option>November/11</option>
+                              <option>December/12</option>
+                          </select>
+                          <label>Day<span class="required">*</span></label>
+                          <select class="myniceselect nice-select wide">
+                            <option>Sunday/01</option>
+                            <option>Monday/02</option>
+                            <option>Tuesday/03</option>
+                            <option>Wednesay/04</option>
+                            <option>Thursday/05</option>
+                            <option>Friday/06</option>
+                            <option>Saturday/07</option>
+                          </select>
+                        </div>
+     
+                        <div class="col-md-6">
+                            <button class="upload_btn">UPLOAD PICTURE</button>
+                          </div>
+                      </div>
+  
+                      <div class="col-md-6">
+                          <h3>VEHICLE LICENSE EXPIRY DATE<span class="required">*</span></h3>
+    
+                          <div class="country-select clearfix col-md-6">
+                            <label>Year<span class="required">*</span></label>
+                            <select class="myniceselect nice-select wide">
+                              <optiond>2022</option>
+                                <option>2023</option>
+                                <option>2023</option>
+                                <option>2024</option>
+                                <option>2025</option>
+                                <option>2026</option>
+                                <option>2027</option>
+                                <option>2028</option>
+                                <option>2029</option>
+                                <option>2030</option>
+                            </select>
+                            <label>Month<span class="required">*</span></label>
+                            <select class="myniceselect nice-select wide">
+                              <optiond>January/01</option>
+                                <option>February/02</option>
+                                <option>March/03</option>
+                                <option>April/04</option>
+                                <option>May/05</option>
+                                <option>June/06</option>
+                                <option>July/07</option>
+                                <option>August/08</option>
+                                <option>September/09</option>
+                                <option>October/10</option>
+                                <option>November/11</option>
+                                <option>December/12</option>
+                            </select>
+                            <label>Day<span class="required">*</span></label>
+                            <select class="myniceselect nice-select wide">
+                              <option>Sunday/01</option>
+                              <option>Monday/02</option>
+                              <option>Tuesday/03</option>
+                              <option>Wednesay/04</option>
+                              <option>Thursday/05</option>
+                              <option>Friday/06</option>
+                              <option>Saturday/07</option>
+                            </select>
+                          </div>
+       
+                          <div class="col-md-6">
+                              <button class="upload_btn">UPLOAD PICTURE</button>
+                            </div>
+                        </div>
+
+                    <div class="col-md-6">
+                      <h3>VEHICLE YEAR<span class="required">*</span></h3>
+
+                      <div class="country-select clearfix col-md-6 text-center">
+                        <label>Year<span class="required">*</span></label>
+                        <select class="myniceselect nice-select wide">
+                          <optiond>2022</option>
+                            <option>2023</option>
+                            <option>2023</option>
+                            <option>2024</option>
+                            <option>2025</option>
+                            <option>2026</option>
+                            <option>2027</option>
+                            <option>2028</option>
+                            <option>2029</option>
+                            <option>2030</option>
+                        </select>
+                        <label>Month<span class="required">*</span></label>
+                        <select class="myniceselect nice-select wide">
+                          <optiond>January/01</option>
+                            <option>February/02</option>
+                            <option>March/03</option>
+                            <option>April/04</option>
+                            <option>May/05</option>
+                            <option>June/06</option>
+                            <option>July/07</option>
+                            <option>August/08</option>
+                            <option>September/09</option>
+                            <option>October/10</option>
+                            <option>November/11</option>
+                            <option>December/12</option>
+                        </select>
+                      </div>
+                         
+                    
+                    </div>
+
+                    <div class="col-md-6">
+                      <h3>VEHICLE COLOUR<span class="required">*</span></h3>
+
+                      <div class="country-select clearfix col-md-6 text-center">
+                        <select class="myniceselect nice-select wide">
+                          <optiond>Bangladesh</option>
+                            <option>London</option>
+                            <option>Romania</option>
+                            <option>French</option>
+                            <option>Germany</option>
+                            <option>Australia</option>
+                        </select>
+
+                      </div>
+                    </div>
+                        <div class="col-12">
+                          <button class="register_btn" id="registerBtn">Register</button>
+                        </div>
+
+                 
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyDtjuoRv7l7CGi2RZhpCDaAIBGBz0gs6os",
+      authDomain: "drive-d9320.firebaseapp.com",
+      databaseURL: "https://drive-d9320-default-rtdb.firebaseio.com",
+      projectId: "drive-d9320",
+      storageBucket: "drive-d9320.appspot.com",
+      messagingSenderId: "980480041289",
+      appId: "1:980480041289:web:00d7ec31d5016ff3077a98",
+      measurementId: "G-WZ4EZ6RZW7"
+    };
+
+    const db = getFirestore();
+
+    const firebase = require("firebase");
+    // Required for side-effects
+    require("firebase/firestore");
+
+    // Initialize Cloud Firestore through Firebase
+    import { initializeApp } from "firebase/app"
+    import { getFirestore } from "firebase/firestore"
+    import {getDatabase} from "firebase/database"
+    // Initialize Firebase
+   const app = initializeApp(firebaseConfig);
+   const database = getDatabase(app)
+    const auth = firebase.auth();
+
+
+    // import { collection, addDoc } from "firebase/firestore";
+    // try {
+    //   const docRef = await addDoc(collection(db, "users"), {
+    //     first: "Ada",
+    //     last: "Lovelace" + email,
+    //     born: 1815 + password
+    //   });
+    //   console.log("Document written with ID: ", docRef.id);
+    // } catch (e) {
+    //   console.error("Error adding document: ", e);
+    // }
+    
+    var saveDriverDetailsToRealtimeDatabase = document.getElementsByClassName('register_btn')
+  for (var i = 0; i < saveDriverDetailsToRealtimeDatabase.length; i++) {
+    var button = saveDriverDetailsToRealtimeDatabase[i]
+    button.addEventListener('click', writeUserData)
+
+  }
+    function writeUserData(userId, name, email, imageUrl) {
+  const db = getDatabase();
+  set(ref(db, 'drivers/' + userId), {
+    username: name,
+    email: email,
+    profile_picture : imageUrl
+  });
+}
+
+  </script>
+  <!-- jQuery JS -->
+  <script src="js/jquery.js"></script>
+  <script src="js/nice-select.js"></script>
+  <!-- ALL JS FILES -->
+  <script src="js/all.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- ALL PLUGINS -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
